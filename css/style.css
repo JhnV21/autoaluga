@@ -1,0 +1,15 @@
+@import "./global/global.css";
+@import "./utilities/tipography.css";
+@import "./utilities/color.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Utilities */
+@import "./utilities/components.css";
+
+/* Home */
+@import "./home/introduction.css";
+@import "./home/vehicles.css";
+@import "./home/testimonials.css";
+@import "./home/newsletter.css";

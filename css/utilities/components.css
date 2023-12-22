@@ -1,0 +1,27 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.btn {
+  background-color: var(--cor-p9);
+  display: block;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--cor-p11);
+}
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}

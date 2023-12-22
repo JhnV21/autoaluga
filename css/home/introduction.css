@@ -1,0 +1,52 @@
+.intro-bg {
+  background-color: var(--cor-1);
+}
+
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+
+.intro-img {
+  background: url("../../img/cars-rbg/c7.png") no-repeat center;
+  background-size: contain;
+}
+
+@media (max-width: 800px) {
+  .introduction {
+    gap: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .intro-content {
+    gap: 20px;
+  }
+
+  .intro-content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .introduction {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-img {
+    height: 200px;
+    background-position: center;
+    background-size: contain;
+    grid-area: 1;
+  }
+}
