@@ -1,0 +1,82 @@
+.veh-intro-bg {
+  background-color: var(--cor-13);
+}
+
+.veh-intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.veh-highlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background-color: var(--cor-14);
+  padding: 69px 40px;
+  border-radius: 5px;
+}
+
+.veh-desc-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.veh-description li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.veh-description li + li {
+  padding-top: 10px;
+}
+
+.veh-highlight-img {
+  background: url("../../img/cars-rbg/ferrari488.png") no-repeat center;
+  background-size: cover;
+  position: absolute;
+  right: 240px;
+  max-width: 700px;
+  width: 100%;
+  height: 340px;
+}
+
+@media (max-width: 1200px) {
+  .veh-highlight-img {
+    position: static;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 800px) {
+  .veh-intro {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .veh-intro h2 {
+    font-size: 3rem;
+  }
+
+  .veh-highlight-img {
+    position: static;
+  }
+}
+
+@media (max-width: 600px) {
+  .veh-highlight {
+    grid-template-columns: 1fr;
+  }
+
+  .veh-highlight-img {
+    height: 200px;
+    grid-area: 1;
+  }
+}

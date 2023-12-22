@@ -29,6 +29,7 @@
   --cor-p13: #5b0000;
   --cor-p14: #420000;
   --cor-p15: #2a0000;
+  --gradient: linear-gradient(var(--cor-p9), var(--cor-p15));
 }
 
 .cor-0 {
@@ -149,4 +150,8 @@
 
 .cor-p15 {
   color: var(--cor-p15);
+}
+
+.gradient {
+  color: var(--gradient);
 }

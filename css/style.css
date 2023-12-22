@@ -13,3 +13,7 @@
 @import "./home/vehicles.css";
 @import "./home/testimonials.css";
 @import "./home/newsletter.css";
+
+/* Vehicles */
+@import "./vehicles/vehicles-intro.css";
+@import "./vehicles/veiculos.css";

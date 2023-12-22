@@ -7,11 +7,17 @@
   margin-left: auto;
 }
 
+.shadow {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
 .btn {
   background-color: var(--cor-p9);
-  display: block;
+  display: inline-block;
   border: none;
   cursor: pointer;
+  text-align: center;
   padding: 16px 32px;
   border-radius: 5px;
 }
